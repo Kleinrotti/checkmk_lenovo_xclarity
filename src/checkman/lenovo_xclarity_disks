@@ -1,0 +1,23 @@
+title: Lenovo XClarity: Disks
+agents: snmp
+catalog: hw/server/lenovo
+license: GPLv2
+distribution: mkp
+description:
+ This check monitors the status of each disk.
+ 
+ The service goes {CRIT}
+
+ - in case of reaching a state which is not Normal
+
+
+ Otherwise the service is {OK}.
+
+ The check has no configuration.
+
+
+discovery:
+ One service is created per disk
+
+item:
+ Disk

@@ -1,0 +1,23 @@
+title: Lenovo XClarity: Voltages
+agents: snmp
+catalog: hw/server/lenovo
+license: GPLv2
+distribution: mkp
+description:
+ This check monitors the status of each voltage sensor.
+ 
+ The service goes {WARN} or {CRIT}
+
+ - in case of reaching a state which is not Normal
+ 
+ - Reaching a treshhold
+
+
+ Otherwise the service is {OK}.
+
+
+discovery:
+ One service is created per voltage sensor.
+
+item:
+ Voltage

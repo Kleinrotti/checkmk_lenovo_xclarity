@@ -1,0 +1,21 @@
+title: Lenovo XClarity: System
+agents: snmp
+catalog: hw/server/lenovo
+license: GPLv2
+distribution: mkp
+description:
+ This check monitors the overall system health.
+ 
+ The service goes {CRIT}
+
+ - in case of reaching a state which is not Normal
+
+
+ Otherwise the service is {OK}.
+
+
+discovery:
+ One service is created per host
+
+item:
+ System

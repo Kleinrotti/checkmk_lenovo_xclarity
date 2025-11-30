@@ -1,0 +1,17 @@
+title: Lenovo XClarity: Power Consumption
+agents: snmp
+catalog: hw/server/lenovo
+license: GPLv2
+distribution: mkp
+description:
+ This check monitors the total power consumption of the server.
+
+
+ The service is always {OK}.
+
+
+discovery:
+ One service is created per host
+
+item:
+ Power Consumption

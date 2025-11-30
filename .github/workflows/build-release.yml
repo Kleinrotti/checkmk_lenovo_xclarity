@@ -29,9 +29,9 @@ jobs:
       - name: Update GITHUB_PATH
         run: echo "/omd/sites/cmk/bin" >> $GITHUB_PATH
       - name: Setup links
-        run: .devcontainer/symlink.sh
+        run: bash .devcontainer/symlink.sh
       - name: Build Extension
-        run: .devcontainer/build.sh
+        run: bash .devcontainer/build.sh
 
       - name: Release files
         uses: softprops/action-gh-release@v1

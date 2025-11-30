@@ -1,7 +1,7 @@
 {
     'author': u'Kleinrotti',
     'description': u'A plugin to get additional information from Lenovo XClarity devices (SNMP)',
-    'download_url': 'https://github.com/Kleinrotti/lenovo_xclarity',
+    'download_url': 'https://github.com/Kleinrotti/checkmk_lenovo_xclarity',
     'files': {'cmk_plugins': ['lenovo_xclarity/agent_based/lenovo_xclarity_consumption.py',
                               'lenovo_xclarity/agent_based/lenovo_xclarity_disks.py',
                               'lenovo_xclarity/agent_based/lenovo_xclarity_fans.py',
@@ -18,7 +18,7 @@
                               'lenovo_xclarity/checkman/lenovo_xclarity_voltages',
                               ]},
     'name': 'lenovo_xclarity',
-    'title': u'Lenvo XClarity SNMP',
+    'title': u'Lenovo XClarity SNMP',
     'version': '1.0.0',
     'version.min_required': '2.3.0p1',
     'version.packaged': '2.3.0p16'

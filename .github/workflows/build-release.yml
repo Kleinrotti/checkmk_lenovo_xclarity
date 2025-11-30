@@ -39,4 +39,4 @@ jobs:
           generate_release_notes: false
           fail_on_unmatched_files: true
           files: |
-              /build/lenovo_xclarity-${{ env.RELEASE_VERSION }}.mkp
+              build/lenovo_xclarity-${{ env.RELEASE_VERSION }}.mkp
